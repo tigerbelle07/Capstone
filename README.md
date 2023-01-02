@@ -9,6 +9,7 @@ Contents
 •	Conclusions
 
 Motivation
+
 My passion in helping others has led me to pursue a data analytics career within the healthcare industry. Breast Cancer is in my family and for us, we are fortunate that my cousin was blessed to have access to the medical treatment for her cancer, which is now in remission. Her journey and determination in beating the cancer inspired me to complete this project. I realized that unlike my cousin, there are several females who were not as fortunate to beat their cancer due to several factors, such as the severity of the cancer, financial hurdles, or lack of access to adequate care. The drive for this project is to examine some of those factors and to continue to highlight the importance of combating the inequities of breast cancer deaths amongst our female population. 
 According to the State Cancer Profile site, from 2016-2020 Tennessee has a 21.6 mortality rate compared to the USA rate of 19.6. There are several factors that play into why women are dying at higher rates in certain Tennessee counties, one being having access to adequate healthcare facilities and treatment and two being insurance coverage. For this project, I want to examine the mortality rates of women in the state to see if there is a correlation between the high death rates, the number of available mammograph facilities and insurance. For counties that have a higher death rate, how many mammograph facilities are available? For the counties that have a higher death rate, how many of the females within those counties have insurance coverage?
 
