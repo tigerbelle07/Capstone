@@ -14,6 +14,7 @@ My passion in helping others has led me to pursue a data analytics career within
 According to the State Cancer Profile site, from 2016-2020 Tennessee has a 21.6 mortality rate compared to the USA rate of 19.6. There are several factors that play into why women are dying at higher rates in certain Tennessee counties, one being having access to adequate healthcare facilities and treatment and two being insurance coverage. For this project, I want to examine the mortality rates of women in the state to see if there is a correlation between the high death rates, the number of available mammograph facilities and insurance. For counties that have a higher death rate, how many mammograph facilities are available? For the counties that have a higher death rate, how many of the females within those counties have insurance coverage?
 
 Data Sources and Tools
+
 Death Rates by County - State Cancer Profiles 
 The stats are produced are from a collaboration between the National Cancer Institute and Centers for Disease Control and Prevention.
 The data compile looks at death rates by County during the 2016-2020 timeframe.
@@ -30,6 +31,7 @@ Tableau for data visualizations.
 
 
 Data Analysis 
+
 For my data analysis, I extracted the death rates in an Excel file, which contained calculated death rates for each county, from the State Cancer Profiles. 
 
 The census data was obtained from an API to have a more machine-readable dataset. The API and instructions can be found here. The dataset had to be converted from a JSON file to CSV file to make few changes to the data, such as using vlookup to match the correct column headers to its respective variable labels. Once the data was gathered, I used Python/Jupyter Notebook to create a subset dataframe with only the columns needed for analysis. Before merging the census data with the death rates dataframe, I had to reduce the row counts within the census data by creating columns that contain a total sum of insured and uninsured females and household totals by income from 2016-2020 for each county. Once those calculated columns were created, the new dataset was merged with the death rate on county name. The new dataset now contains the death rates by county, the total number of insured and uninsured females and household total by income. This new dataset was used to create my visualizations.
@@ -37,12 +39,14 @@ The census data was obtained from an API to have a more machine-readable dataset
 The mammograph facilities was extracted from the FDA website as a PDF and later converted into an Excel file.  It would a later be combined with the death rate and census data in Tableau for visualization. 
 
 Challenges 
+
 The main challenge I faced was the lack of female death rates by race for all TN counties due to data suppression. Tennessee has 95 counties and data was only available for 69. The data has been suppressed to ensure confidentiality and stability of rate estimates. Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category1.
 Due to the data suppression, it was quite difficulty to get a more defined looked at the death rates by races. Initially, I wanted to look and compare mortality rates amongst white, black, and brown women to highlight some of the healthcare disparities within our community by race, but due to how the data was suppressed, I couldn’t paint that full picture for this project.  
 So, I had to switch gears and change my focus to look at mortality rates amongst all women in Tennessee.
 Also, due to time constraints, I couldn’t provide an additional breakdown for household by income by gender. However, that data will be provide at a later time.
 
 Conclusion 
+
 For the PowerPoint presentation, I limited the counties count to 12, but for the ReadMe, I wanted to highlight the top 15.  
 
 Which counties had the highest BC death rates?
@@ -88,7 +92,9 @@ Which counties had the lowest BC death rates?
 In looking at these counties with the lowest morality rates, 14 out of the 15 counties had 1 or 2 mammograph facilities, with Knox County leading the pack with 17 facilities. 
 In looking at the insurance factor, the top 15 had the lowest number of uninsured females during 2016-2020. Knox county, which has the highest number of mammograph facilities in the group, also has the least amount of uninsured females of approx. 91,969, compared to Shelby county’s 264,365. The other counties on the list also had more insured females compared to the counties with the highest mortality rate.
 
-Final Analysis: Insurance and access to adequate healthcare plays a key part in contributing to high mortality rates of breast cancer amongst women in Tennessee.	
+Final Analysis
+
+Insurance and access to adequate healthcare plays a key part in contributing to high mortality rates of breast cancer amongst women in Tennessee.	
 I created a dashboard to provide a visual picture of my analysis. I hope from the information provide will help play a small part in highlighting inequity within our healthcare system and encourage our Healthcare administers to continue championing for initiatives to help reduce the Breast Cancer mortality rate to save more female lives within our State. 
 
 
