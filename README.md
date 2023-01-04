@@ -42,7 +42,7 @@ The mammograph facilities was extracted from the FDA website as a PDF and later 
 
 Challenges 
 
-The main challenge I faced was the lack of female death rates by race for all TN counties due to data suppression. Tennessee has 95 counties and data was only available for 69. The data has been suppressed to ensure confidentiality and stability of rate estimates. Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category1.
+The main challenge I faced was the lack of female death rates by race for all TN counties due to data suppression. Tennessee has 95 counties and data was only available for 69. The data has been suppressed to ensure confidentiality and stability of rate estimates. Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category[1](https://statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=47&areatype=county&cancer=055&race=00&sex=2&age=001&type=death#results).
 Due to the data suppression, it was quite difficulty to get a more defined looked at the death rates by races. Initially, I wanted to look and compare mortality rates amongst white, black, and brown women to highlight some of the healthcare disparities within our community by race, but due to how the data was suppressed, I couldn't paint that full picture for this project.  
 So, I had to switch gears and change my focus to look at mortality rates amongst all women in Tennessee.
 Also, due to time constraints, I couldn't provide an additional breakdown for household by income by gender. However, that data will be provide at a later time.
