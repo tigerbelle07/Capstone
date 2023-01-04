@@ -99,8 +99,7 @@ Final Analysis
 Insurance and access to adequate healthcare plays a key part in contributing to high mortality rates of breast cancer amongst women in Tennessee.	
 I created a dashboard to provide a visual picture of my analysis. I hope from the information provide will help play a small part in highlighting inequity within our healthcare system and encourage our Healthcare administers to continue championing for initiatives to help reduce the Breast Cancer mortality rate to save more female lives within our State. 
 
-Dashboard:
+[Dashboard: Mortality Rates by County](https://public.tableau.com/shared/PR5HRCDCB?:display_count=n&:origin=viz_share_link)
 
-<iframe seamless frameborder="0" src= "https://public.tableau.com/shared/PR5HRCDCB?:display_count=n&:origin=viz_share_link" width = '650' height = '450' scrolling='yes' ></iframe>
 
 
