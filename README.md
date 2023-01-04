@@ -101,6 +101,6 @@ I created a dashboard to provide a visual picture of my analysis. I hope from th
 
 Dashboard:
 
-https://public.tableau.com/shared/PR5HRCDCB?:display_count=n&:origin=viz_share_link
+<iframe seamless frameborder="0" src= "https://public.tableau.com/shared/PR5HRCDCB?:display_count=n&:origin=viz_share_link" width = '650' height = '450' scrolling='yes' ></iframe>
 
 
