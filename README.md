@@ -19,7 +19,7 @@ According to the [State Cancer Profile](https://statecancerprofiles.cancer.gov/q
 Data Sources and Tools
 
 Death Rates by County - [State Cancer Profile](https://statecancerprofiles.cancer.gov/quick-profiles/index.php?statename=tennessee#t=3)
-The stats are produced are from a collaboration between the National Cancer Institute and Centers for Disease Control and Prevention.
+The stats are produced from a collaboration between the National Cancer Institute and Centers for Disease Control and Prevention.
 The data compile looks at death rates by County during the 2016-2020 timeframe.
 
 Insurance Coverage & Income - [Census Bureau](https://data.census.gov/)
@@ -72,7 +72,7 @@ Which counties had the highest BC death rates?
 In looking at these counties with the highest death rate, I wanted to see how many FDA Mammograph facilities are located within these counties?
 In TN, there are 192 FDA approved Mammograph facilities available within 69 counties. Within the 15 counties with the highest mortality rates, only 8 of the counties have a mammograph facility. However, I did notice an outlier with Shelby County. Within that county, there are 26 mammograph facilities, the largest number within the entire state, but has a high mortality rate of 27%.
 Jumping to my first data question, is there a correlation between the counties that have a higher death rate with the number of available mammograph facilities? Based on the available data, the answer is yes.  Within the 15 counties with the highest death rate, only 8 of the 15 have 1 or fewer than 2 mammograph facilities, apart from Shelby County. Which lead me to think, “what is going on within Shelby County”?
-This brings me to my second data question, is there another factor, such as insurance that could also plays a factor in higher mortality rates within these counties? The answer is yes.
+This brings me to my second data question, is there another factor, such as insurance that plays into the higher mortality rates within these counties? The answer is yes.
 According to the US Census Data, between 2016-2020, Shelby County has the highest number of its population with no insurance coverage at 4,052,700 and out of that number 264,365 are females. The highest number of uninsured females within the State during the that timeframe. 
 
 Which counties had the lowest BC death rates?
@@ -98,7 +98,7 @@ In looking at the insurance factor, the top 15 had the lowest number of uninsure
 Final Analysis
 
 Insurance and access to adequate healthcare plays a key part in contributing to high mortality rates of breast cancer amongst women in Tennessee.	
-I created a dashboard to provide a visual picture of my analysis. I hope from the information provide will help play a small part in highlighting inequity within our healthcare system and encourage our Healthcare administers to continue championing for initiatives to help reduce the Breast Cancer mortality rate to save more female lives within our State. 
+I created a dashboard to provide a visual picture of my analysis. I hope from the information provided will help play a small part in highlighting inequity and disparities within our healthcare system and encourage our Healthcare administers to continue championing for initiatives to help reduce the Breast Cancer mortality rate to save more female lives within our State. 
 
 [Dashboard: Mortality Rates by County](https://public.tableau.com/shared/PR5HRCDCB?:display_count=n&:origin=viz_share_link)
 
